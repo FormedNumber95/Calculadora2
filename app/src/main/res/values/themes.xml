@@ -7,18 +7,22 @@
 
     <style name="Theme.Calculadora2" parent="Base.Theme.Calculadora2" />
     <style name="NumberButton">
-        <item name="background">@color/gray</item>
+        <item name="backgroundTint">@color/gray</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">32sp</item>
     </style>
     <style name="SymbolButton">
-        <item name="background">@color/gray</item>
+        <item name="backgroundTint">@color/gray</item>
         <item name="android:textColor">@color/blue</item>
         <item name="android:textSize">32sp</item>
         <item name="android:textAllCaps">false</item>
     </style>
+    <style name="ScreenNumber">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">48sp</item>
+    </style>
     <style name="separator">
-        <item name="background">@color/black</item>
+        <item name="backgroundTint">@color/black</item>
         <item name="android:layout_width">1dp</item>
         <item name="android:elevation">3dp</item>
     </style>
